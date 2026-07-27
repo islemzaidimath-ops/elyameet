@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from models import Room
+from app.models import Room
 
 
 class RoomRepository:
