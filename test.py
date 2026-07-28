@@ -1,5 +1,5 @@
 from unittest.mock import Mock
-from services.room_service import RoomService
+from app.services.room_service import RoomService
 
 fake_repository = Mock()
 fake_repository.get_by_name.return_value = None
