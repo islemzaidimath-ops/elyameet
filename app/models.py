@@ -9,7 +9,6 @@ class Room(Base):
     name = Column(String, unique=True, nullable=False)
     capacity = Column(Integer, nullable=False)
 
-
 class Equipment(Base):
     __tablename__ = "equipments"
 
